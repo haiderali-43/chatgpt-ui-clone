@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#343541]">
+    <div
+        class="responsive-top border-b-2 border-b-cyan-700 flex text-white justify-between md:hidden w-full h-[2.5rem] bg-[#202123] py-2">
+        <i class="ri-bar-chart-horizontal-line  text-2xl pl-2"></i>
+        <h5>New Chat</h5>
+        <i class="ri-add-line  text-2xl pr-2"></i>
+
+    </div>
+    <div class="container w-full flex h-[100vh] text-white overflow-hidden">
+        <div class="left w-3/12 bg-[#202123] hidden md:block">
+            <div
+                class="left-content flex px-3 ml-4 space-x-4 mt-5 border w-[16rem] h-[3rem] rounded-lg items-center justify-center cursor-pointer hover:bg-[#2b2c2f]">
+                <i class="ri-add-line"></i>
+                <h5>New Chat</h5>
+            </div>
+            <div class="left-down space-y-6 absolute bottom-0">
+                <div class="left-down-top border-t w-[17rem] ml-3"></div>
+                <div
+                    class="user flex justify-between h-[3rem] w-[18rem]  px-3 py-3 rounded-md hover:bg-[#2b2c2f] cursor-pointer ml-3">
+                    <i class="ri-user-line"></i>
+                    <h4>Upgrade to plus</h4>
+                    <label for="New" class="h-7 w-13 text-black rounded-md px-2 bg-[#fae69e]">New</label>
+                </div>
+                <div
+                    class="user-email flex justify-between h-[3rem] w-[18rem]  px-3 py-3 rounded-md hover:bg-[#2b2c2f] cursor-pointer ml-3 relative bottom-3">
+                    <i class="ri-chat-settings-line"></i>
+                    <p>coderali060@gmail.com</p>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ellipsis.png"
+                        alt="ellipsis" />
+
+                </div>
+            </div>
+        </div>
+        <div class="right w-9/12 grid items-center">
+            <h3 class=" text-center relative top-3 left-[3rem] text-4xl">ChatGPT</h3>
+            <div class="templates relative left-10 md:flex md:space-x-5 md:justify-center">
+                <div class="templates-1 text-center mt-3">
+                    <div class="templates-icons mt-4">
+                        <i class="ri-sun-line text-2xl"></i>
+                        <h5>Examples</h5>
+                    </div>
+
+                    <ul class="space-y-3 mt-2">
+                        <li
+                            class="w-auto h-auto cursor-pointer hover:bg-[#202123]  rounded-md bg-slate-800 px-3 py-2 md:w-[16rem] md:h-[4rem] ">
+                            "Explain Quantum computing in <br> simple terms" <i class="ri-arrow-right-line"></i>
+                        </li>
+                        <li
+                            class="w-auto h-auto  cursor-pointer hover:bg-[#202123] rounded-md bg-slate-800 px-3 py-2 md:w-[16rem] md:h-[4rem] ">
+                            "Got any creative ideas for 10 <br> year's old birthday" <i class="ri-arrow-right-line"></i>
+                        </li>
+                        <li
+                            class="w-auto h-auto hidden cursor-pointer hover:bg-[#202123] rounded-md bg-slate-800 px-3 py-2 md:w-[16rem] md:h-[4rem] md:block ">
+                            "How do i make HTTPS request <br> in Javascript"<i class="ri-arrow-right-line"></i></li>
+                    </ul>
+
+
+                </div>
+                <div class="templates-2 text-center">
+                    <div class="templates-icons mt-4">
+                        <i class="ri-pulse-fill text-2xl"></i>
+                        <h5>Capabilities</h5>
+                    </div>
+                    <ul class="space-y-3 mt-2 md:mt-6">
+                        <li
+                            class="w-auto h-auto cursor-pointer hover:bg-[#202123] rounded-md bg-slate-800 px-3 py-2 md:w-[16rem] md:h-[4rem] ">
+                            Remembers what user said <br> earlier in the conversation</li>
+                        <li
+                            class="w-auto h-auto cursor-pointer hover:bg-[#202123] rounded-md bg-slate-800 px-3 py-2 md:w-[16rem] md:h-[4rem] ">
+                            Allows user to provide follow-up <br> corrections</li>
+                        <li
+                            class="w-auto h-auto hidden  cursor-pointer hover:bg-[#202123] rounded-md bg-slate-800 px-3 py-2 md:w-[16rem] md:h-[4rem] md:block ">
+                            Trained to decline inappropriate <br> requests</li>
+                    </ul>
+
+                </div>
+                <div class="templates-3 text-center">
+                    <div class="templates-icons text-center mt-4">
+                        <i class="ri-pulse-fill text-2xl"></i>
+                        <h5>Limitations</h5>
+                    </div>
+                    <ul class="space-y-3 mt-2 md:mt-6">
+                        <li
+                            class="w-auto h-auto cursor-pointer hover:bg-[#202123] rounded-md bg-slate-800 px-3 py-2 md:w-[16rem] md:h-[4rem]">
+                            May occasionally generate <br> incorrect information</li>
+                        <li
+                            class="w-auto h-auto cursor-pointer hover:bg-[#202123] rounded-md bg-slate-800 px-3 py-1 md:w-[16rem] md:h-[4rem] ">
+                            May occasionally produce <br> harmful instructions or biased
+                            <br> content
+                        </li>
+                        <li
+                            class="w-auto h-auto hidden cursor-pointer hover:bg-[#202123]  rounded-md bg-slate-800 px-3 py-2 md:w-[16rem] md:h-[4rem] md:block ">
+                            Limited knowledge of world and <br> events after 2021</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="input-area flex text-zinc-500  relative left-10 top-[rem] md:justify-center">
+                <input type="text" placeholder="Send Message"
+                    class="w-[22rem] h-[2.5rem]  bg-[#202123] px-3 rounded-lg placeholder:text-[#333] focus:outline-none md:w-[52rem] md:top-[6rem] md:relative">
+                <i class="ri-send-plane-fill text-2xl relative cursor-pointer right-9 top-1 text-zinc-500 md:top-[6.2rem] md:relative"></i>
+            </div>
+
+
+            <p class="text-sm text-center hidden md:block">Free Research Preview. ChatGPT may produce inaccurate information about
+                people, places, or facts. <a href="#" class="underline">ChatGPT May 12 Version</a></p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
